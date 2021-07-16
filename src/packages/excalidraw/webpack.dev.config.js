@@ -76,7 +76,6 @@ module.exports = {
       },
     },
   },
-  plugins: [new webpack.EvalSourceMapDevToolPlugin({ exclude: /vendor/ })],
   externals: {
     react: {
       root: "React",
